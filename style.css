@@ -1,0 +1,291 @@
+#website {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  #nav_bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 650px;
+
+    #nav_menu {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+      #nav_text {
+        color: grey;
+        font-size: 15px;
+      }
+      #icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        #icon {
+          height: 30px;
+          width: 30px;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+  #homepage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 40px;
+    padding: 120px 420px;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.064),
+        rgba(0, 0, 255, 0.315)
+      ),
+      url(https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/home-bg.png);
+    #home_one {
+      font-size: 50px;
+      font-weight: bold;
+    }
+    #home_two {
+      font-size: 20px;
+      width: 660px;
+      text-align: center;
+    }
+    #home_three {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      padding: 15px 15px;
+      background-color: rgba(0, 0, 0, 0.756);
+      #input {
+        height: 38px;
+        width: 250px;
+        color: grey;
+        background-color: white;
+        text-align: center;
+        display: flex;
+        flex-direction: center;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        border: 2px black solid;
+        border-radius: 3px;
+      }
+      #search {
+        background-color: rgb(0, 140, 255);
+        border: none;
+        cursor: pointer;
+        font-size: 15px;
+        color: white;
+        padding: 10px 10px;
+        border-radius: 3px;
+      }
+    }
+  }
+  #emojis {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 250px;
+    background: whitesmoke;
+    border: 1px grey solid;
+    #emoji {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      #emoji_1 {
+        border: 1px rgb(0, 102, 255) solid;
+        padding: 15px 15px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+      #emoji_text {
+        font-size: 25px;
+      }
+    }
+  }
+  #infos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1100px;
+    flex-wrap: wrap;
+
+    #text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: left;
+      height: 450px;
+      width: 450px;
+      gap: 10px;
+
+      #text_1 {
+        font-size: 30px;
+        font-weight: 100;
+      }
+      #text_2 {
+        font-size: 25px;
+        font-weight: 25;
+        color: rgba(0, 0, 0, 0.555);
+      }
+      #text_3 {
+        color: rgb(128, 128, 128);
+        padding: 10px 0px;
+        line-height: 22px;
+      }
+    }
+  }
+  #logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    #moral {
+      font-size: 30px;
+      font-weight: bold;
+      color: rgba(0, 0, 0, 0.701);
+    }
+    #moral_1 {
+      color: grey;
+      font-size: 20px;
+    }
+    #badges {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 100px;
+    }
+  }
+
+  #rating {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    gap: 20px;
+    padding: 20px 300px;
+    #morals {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      #moral {
+        font-size: 30px;
+        font-weight: bold;
+        color: rgba(0, 0, 0, 0.701);
+        padding: 10px 10px;
+      }
+      #moral_1 {
+        color: grey;
+        font-size: 20px;
+        padding: 10px 10px;
+      }
+    }
+    #ratings {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      #rating_1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 450px;
+        padding: 5px 5px;
+
+        #photo {
+          background-color: rgba(202, 202, 176, 0.559);
+          #photo_1 {
+            border-radius: 50%;
+            padding: 5px 5px;
+          }
+        }
+        #self {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          padding: 18px 5px;
+          background-color: white;
+          #com {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+          }
+          #com_1 {
+            color: rgb(0, 72, 255);
+          }
+        }
+      }
+    }
+  }
+  #content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 300px;
+
+    #subscribe {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      #subscribe_1 {
+        font-size: 30px;
+      }
+      #subscribe_2 {
+        text-align: center;
+        font-size: 20px;
+      }
+      #subscribe_3 {
+        background-color: rgb(0, 140, 255);
+        border: none;
+        cursor: pointer;
+        font-size: 15px;
+        color: white;
+        padding: 10px 10px;
+        border-radius: 3px;
+      }
+    }
+  }
+  #copyrights {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    background-color: rgb(9, 234, 88);
+    #copyright_1 {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+      #line_2{
+        color: orangered;
+      }
+      
+    }
+  }
+}
